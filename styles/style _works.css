@@ -1,0 +1,175 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;*/
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    min-height: 100%;
+    background-color:#f5ebff;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Centers the menu */
+    width: 100%; /* Ensures full width */
+}
+
+li.menu
+{
+    color: #4B0082; /* Dark Purple */
+    text-align: center; /* Center align text */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px; /* Space between items */
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 8px 15px; /* Creates a clickable tab effect */
+    border-radius: 5px; /* Smooth rounded corners */
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #f5ebff;
+    color: #4B0082; /* Default text color */
+    padding: 8px 15px;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Hover State: Highlight Background & Light Text */
+nav ul li a:hover {
+    background-color: #4B0082; /* Dark Purple */
+    color: #fff; /* Light text */
+    border-radius: 5px; /* Rounded corners for a smooth look */
+}
+
+main {
+    width: 100%;
+    background-color: #f5ebff; /* Lilac color */
+}
+
+
+.grid-item {
+    text-align:left;
+    padding: 5vmin;
+    border-radius: 1.5vmin;
+    width: 80%;
+    min-height: fit-content;
+    max-height: 50%;
+    height: calc(width*11.5vmin);
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+
+  .grid-container-works {
+    /*background-color: rgb(143, 226, 65);*/
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .portfolio {
+    /*background-color: rgb(136, 55, 83);*/
+    display: grid;
+    background-blend-mode:screen;
+    background-position: center;
+    justify-content: center;
+    min-height: 300px;
+    height: 100%;
+    width: 100%;
+    min-height:761px;
+    position:relative;
+    
+  }
+
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 24pt;
+    padding: 20px;
+    background-color: white;
+    color: #4B0082; /* Dark purple */
+    text-align: center; 
+}
+
+h2.special
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10pt;
+    padding-bottom: 10px;
+}
+h2, h4
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18pt;
+    color: #4B0082; /* Dark purple */
+    margin-top: 10px;
+    margin-bottom: 10;
+    line-height: 1.2;
+
+}
+
+p.default 
+{
+    color: #000000; /* Black */
+    text-align: left; /* Center align text */
+}
+
+p.special
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight:400;
+    font-size: 11pt;
+    color: #4B0082; /* Dark purple */
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.2;
+    inline-size: 1.2;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color:white;
+    padding: 5px 0 10px 0;
+}
+
+section {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+footer {
+    clear:both;
+    width: 100%;
+    height: 15px;
+    background-color: #4B0082; /* Dark Purple */
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    margin-top: auto;
+}
